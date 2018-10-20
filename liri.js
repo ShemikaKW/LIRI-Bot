@@ -47,7 +47,7 @@ function spotifyThis(song) {
     if (song === undefined){
         song = 'The Sign by Ace of Base';
     }
-    spotify.search ({ type: 'track', query: song,} function (err, data){
+    spotify.search ({ type: 'track', query: song}, function (err, data){
         if (err){
             return console.log('Error occured: + err');
             
