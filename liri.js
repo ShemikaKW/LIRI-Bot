@@ -133,10 +133,10 @@ function getRandom() {
                 readParam = readParam + "+" + dataSplit[i];
             };
 
-            doProcess(readCommand, readParam);
+            process(readCommand, readParam);
         }
     })
 }
 
 
- doProcess(inputCommand, inputParam);
+ process(inputCommand, inputParam);
